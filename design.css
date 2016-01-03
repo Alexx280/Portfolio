@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+
+
+body {
+
+    overflow-x: hidden;
+}
+#first   {
+    background-image: url("pic/img_portfolio3.jpg");
+    background-position: left top;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    width: 1300px;
+    height: 1024px;
+    margin-left: -20px;
+
+}
+#second   {
+    position: absolute;
+    top: 1024px;
+    background-image: url("pic/img_portfolio4.jpg");
+    background-position: left top;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    width: 1300px;
+    height: 1024px;
+    margin-left: -20px;
+
+}
