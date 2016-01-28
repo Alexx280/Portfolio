@@ -6,8 +6,8 @@
     <link rel='stylesheet' type='text/css' href='design.css'/>
 </head>
 <div id = "top" class="myElement">
-    <p class="contact" style="margin-left: 110px; margin-top: 5px">Бусыгин Алексей</p>
-    <div class="button"></div>
+    <p class="contact" style="margin-left: 110px; margin-top: 5px">Busygin Alexey</p>
+    <div id="top_button1" class="button">About me</div>
 </div>
 <div id="first">
       <div class="button-head">
