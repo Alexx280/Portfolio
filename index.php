@@ -4,10 +4,12 @@
 <head>
     <meta charset='UTF-8'>
     <link rel='stylesheet' type='text/css' href='design.css'/>
+    <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
 </head>
 <div id = "top" class="myElement">
     <p class="contact" style="margin-left: 110px; margin-top: 5px">Busygin Alexey</p>
-    <div id="top_button1" class="button">About me</div>
+    <div id="top_button_about_me" class="button_top">About me</div>
+    <div id="top_button_my_works" class="button_top">My works</div>
 </div>
 <div id="first">
       <div class="button-head">
