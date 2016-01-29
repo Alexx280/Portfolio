@@ -69,6 +69,7 @@ body {
 #top_button1:hover {
     color: blue;
     font-weight: bold;
+    font-size:1.2em;
 }
 .button-head{
     position: inherit;
