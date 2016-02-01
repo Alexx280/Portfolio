@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43f036a4-599f-465d-aeea-5cde88719c99" name="Default" comment="edit top buttons, add button &quot;My works&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplexlsx.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simplexlsx.example.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.html" afterPath="$PROJECT_DIR$/1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Portfolio.iws" />
@@ -52,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20731707" vertical-offset="0" max-vertical-offset="1020">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -74,14 +71,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simplexlsx.example.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="simplexlsx.example.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simplexlsx.example.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5804878" vertical-offset="0" max-vertical-offset="820">
+            <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="578">
               <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <marker date="1454320487373" expanded="true" signature="227:252" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="where_countries_and_population_xlsx.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/where_countries_and_population_xlsx.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,9 +107,9 @@
       <list>
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/design.css" />
-        <option value="$PROJECT_DIR$/1.html" />
         <option value="$PROJECT_DIR$/simplexlsx.class.php" />
         <option value="$PROJECT_DIR$/simplexlsx.example.php" />
+        <option value="$PROJECT_DIR$/1.html" />
       </list>
     </option>
   </component>
@@ -249,7 +256,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454061159837</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлены пробные файлы считывания эксель файлов.">
+      <created>1454322416455</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1454322416455</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers>
       <GitHub shared="true" url="github.com">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -267,7 +280,7 @@
     </servers>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="958" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="958" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -277,6 +290,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30884042" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -289,7 +303,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -315,7 +328,8 @@
     <MESSAGE value="add margin to button &quot;about me&quot;" />
     <MESSAGE value="set font-size in hover button" />
     <MESSAGE value="edit top buttons, add button &quot;My works&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit top buttons, add button &quot;My works&quot;" />
+    <MESSAGE value="Добавлены пробные файлы считывания эксель файлов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены пробные файлы считывания эксель файлов." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -481,14 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simplexlsx.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-117.76363" vertical-offset="51" max-vertical-offset="6834">
@@ -501,11 +507,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/simplexlsx.example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5804878" vertical-offset="0" max-vertical-offset="820">
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="578">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <marker date="1454320487373" expanded="true" signature="227:252" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/where_countries_and_population_xlsx.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20731707" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
