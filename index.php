@@ -7,12 +7,12 @@
     <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
 </head>
 <div id = "top" class="myElement">
-    <p class="contact" style="margin-left: 110px; margin-top: 5px">Busygin Alexey</p>
+    <p class="contact" style="margin-left: 80px; margin-top: 5px">Busygin Alexey</p>
     <div id="top_button_about_me" class="button_top">About me</div>
     <div id="top_button_my_works" class="button_top">My works</div>
     <div id="top_button_my_contacts" class="button_top">My contacts</div>
 </div>
-<div id="first">
+<div id="first" class="fon">
       <div class="button-head">
             <div class="main-container">
                 <section>
@@ -27,8 +27,14 @@
             </div>
       </div>
 </div>
-<div id="second"></div>
-<div id="third">
+<div id="second" class="fon">
+    <div id="wraper_project">
+        <div class ="main-container" >
+            <img id="project1"  src="pic/Project1.jpg" width="425" height="300">
+        </div>
+    </div>
+</div>
+<div id="third" class="fon">
   <div id="contact">
    <p class="contact">
     Contact with me by <br>
@@ -40,29 +46,6 @@
 </div>
 
 <script>
-    var linkNav = document.querySelectorAll('[href^="#nav"]'),
-        V = 2;  // скорость, может иметь дробное значение через точку
-    for (var i = 0; i < linkNav.length; i++) {
-        linkNav[i].addEventListener('click', function(e) {
-            e.preventDefault();
-            var w = window.pageYOffset,  // прокрутка
-                hash = this.href.replace(/[^#]*(.*)/, '$1');  // id элемента, к которому нужно перейти
-            t = document.querySelector(hash).getBoundingClientRect().top,  // отступ от окна браузера до id
-                start = null;
-            requestAnimationFrame(step);  // подробнее про функцию анимации [developer.mozilla.org]
-            function step(time) {
-                if (start === null) start = time;
-                var progress = time - start,
-                    r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
-                window.scrollTo(0,r);
-                if (r != w + t) {
-                    requestAnimationFrame(step)
-                } else {
-                    location.hash = hash  // URL с хэшем
-                }
-            }
-        }, false);
-    }
 
 </script>
 

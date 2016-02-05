@@ -7,6 +7,7 @@ body {
 
     overflow-x: hidden;
 }
+
 #top{
     position: fixed;
     z-index: 2;
@@ -14,44 +15,36 @@ body {
     background-position: left top;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    width: 1300px;
+    width: 100%;
     height: 50px;
-    margin-left: -20px;
+    margin-left: 0;
 }
-#first   {
-    background-image: url("pic/img_portfolio3.jpg");
+
+.fon{
     background-position: left top;
     background-repeat:no-repeat;
     background-attachment:fixed;
-    width: 1300px;
+    width: 100%;
     height: 1024px;
-    margin-left: -20px;
-
+    margin-left: 0;
+    background-size: cover;
+}
+#first   {
+    background-image: url("pic/img_portfolio3.jpg");
+    /*  background: url('https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg') no-repeat center center fixed;*/
 }
 #second   {
     position: absolute;
     top: 1024px;
     background-image: url("pic/img_portfolio4.jpg");
-    background-position: left top;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    width: 1300px;
-    height: 1024px;
-    margin-left: -20px;
-
-}
+    }
 #third   {
     position: absolute;
     top: 2048px;
     background-image: url("pic/img_portfolio6.jpg");
-    background-position: left top;
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    width: 1300px;
-    height: 1024px;
-    margin-left: -20px;
-
 }
+
+/*Верхние кнопки*/
 .button_top{
     cursor: pointer;
     position: inherit;
@@ -65,17 +58,19 @@ body {
     font-size: 1.5em;
     color: #2b2b2b;
     text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
-
 }
 
 #top_button_about_me{
-    left: 800px;
+    /*left: 800px;*/
+    right: 280px;
 }
 #top_button_my_works{
-    left: 940px;
+    right: 140px;
+    /*left: 940px;*/
 }
 #top_button_my_contacts{
-    left: 1080px;
+    right: 0
+    ;/*left: 1080px;*/
 }
 
 #top_button_about_me:hover, #top_button_my_works:hover, #top_button_my_contacts:hover {
@@ -88,6 +83,9 @@ body {
     position: inherit;
     margin-left: 50px;
     padding-top: 220px;
+}
+#wraper_project{
+    margin-top: 20px;
 }
 
 .contact{
