@@ -10,17 +10,22 @@ if (isset($_FILES['file'])) {
     echo '<table border="1" cellpadding="3" style="border-collapse: collapse">';
 
     list($cols,) = $xlsx->dimension();
-
+    $f=0;
     foreach( $xlsx->rows() as $k => $r) {
-//		if ($k == 0) continue; // skip first row
+
+//if ($k == 0) continue; // skip first row
         echo '<tr>';
-        for( $i = 0; $i < $cols; $i++)
-            echo '<td>'.( (isset($r[$i])) ? $r[$i] : '&nbsp;' ).'</td>';
+        for( $i = 0; $i < $cols; $i++){
+            $a[$i] = array_fill($f, 1, $r);
+
+            echo '<td>'.( (isset($r[$i])) ? $r[$i] : '&nbsp;' ).'</td>';}
         echo '</tr>';
+        $f++;
     }
     echo '</table>';
 }
-
+//$a = array_fill(1, 1, 'erf');
+print_r($a[0]);
 ?>
 <h1>Upload</h1>
 <form method="post" enctype="multipart/form-data">
