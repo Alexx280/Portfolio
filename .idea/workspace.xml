@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43f036a4-599f-465d-aeea-5cde88719c99" name="Default" comment="test fcc drop it">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.html" afterPath="$PROJECT_DIR$/1.html" />
+    <list default="true" id="43f036a4-599f-465d-aeea-5cde88719c99" name="Default" comment="clear tes file">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -300,7 +299,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454654449325</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="clear tes file">
+      <created>1454654523627</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1454654523627</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers>
       <GitHub shared="true" url="github.com">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -369,7 +374,8 @@
     <MESSAGE value="Добавлены пробные файлы считывания эксель файлов." />
     <MESSAGE value="test fcc drop it" />
     <MESSAGE value="add button &quot;My contsacts&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button &quot;My contsacts&quot;" />
+    <MESSAGE value="clear tes file" />
+    <option name="LAST_COMMIT_MESSAGE" value="clear tes file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
