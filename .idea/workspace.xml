@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43f036a4-599f-465d-aeea-5cde88719c99" name="Default" comment="clear tes file">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    <list default="true" id="43f036a4-599f-465d-aeea-5cde88719c99" name="Default" comment="add button &quot;My contsacts&quot;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Portfolio.iws" />
@@ -305,7 +304,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454654523627</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add button &quot;My contsacts&quot;">
+      <created>1454654626715</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1454654626715</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers>
       <GitHub shared="true" url="github.com">
         <commitMessageFormat>{id} {summary}</commitMessageFormat>
@@ -368,14 +373,15 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="add margin to button &quot;about me&quot;" />
     <MESSAGE value="set font-size in hover button" />
     <MESSAGE value="edit top buttons, add button &quot;My works&quot;" />
     <MESSAGE value="Добавлены пробные файлы считывания эксель файлов." />
     <MESSAGE value="test fcc drop it" />
-    <MESSAGE value="add button &quot;My contsacts&quot;" />
     <MESSAGE value="clear tes file" />
-    <option name="LAST_COMMIT_MESSAGE" value="clear tes file" />
+    <MESSAGE value="add button &quot;My contsacts&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add button &quot;My contsacts&quot;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
