@@ -74,15 +74,13 @@ body {
 #top_button_my_works{
     left: 940px;
 }
-
-#top_button_about_me:hover {
-    color: #cc9900;
-    font-weight: bold;
-    background-color: #2b2b2b;;
+#top_button_my_contacts{
+    left: 1080px;
 }
-#top_button_my_works:hover {
+
+#top_button_about_me:hover, #top_button_my_works:hover, #top_button_my_contacts:hover {
     color: #cc9900;
-    font-weight: bold;
+    /*font-weight: bold;*/
     background-color: #2b2b2b;
 }
 
