@@ -12,6 +12,7 @@
     <div id="top_button_my_works" class="button_top">My works</div>
     <div id="top_button_my_contacts" class="button_top">My contacts</div>
 </div>
+
 <div id="first" class="fon">
       <div class="button-head">
             <div class="main-container">
@@ -27,13 +28,22 @@
             </div>
       </div>
 </div>
+
 <div id="second" class="fon">
     <div id="wraper_project">
         <div class ="main-container" >
-            <img id="project1"  src="pic/Project1.jpg" width="425" height="300">
+            <div class="tiles">
+                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Учебный курс</span><span class="info">Повышение осведомлённости сотрудников компании в области информационной безопасности</span></div></a>
+                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
+                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
+                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
+                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
+                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
+            </div>
         </div>
     </div>
 </div>
+
 <div id="third" class="fon">
   <div id="contact">
    <p class="contact">
@@ -56,9 +66,3 @@
 <?php
 
 ?>
-/**
- * Created by PhpStorm.
- * User: busygin
- * Date: 31.12.2015
- * Time: 10:37
- */
