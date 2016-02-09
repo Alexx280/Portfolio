@@ -1,12 +1,11 @@
 <?php
 
-if (isset($_FILES['file'])) {
+if (1/*isset($_FILES['file'])*/) {
 
     require_once "simplexlsx.class.php";
+    $xlsx = new SimpleXLSX('country.xlsx'/*$_FILES['file']['tmp_name']*/);
 
-    $xlsx = new SimpleXLSX( $_FILES['file']['tmp_name'] );
-
-    echo '<h1>Parsing Result</h1>';
+   // echo '<h1>Parsing Result</h1>';
     echo '<table border="1" cellpadding="3" style="border-collapse: collapse">';
 
     list($cols,) = $xlsx->dimension();
@@ -45,7 +44,7 @@ do {
     $z=$z+5;
     $k=$k+1;
 } while ($z <=500);
-//print_r($b[91][2]);
+print_r($b[91][1]);
 
 
 $array1 = array(array('a','y','c'), "red", "blue", "red");
@@ -53,12 +52,11 @@ $array2 = array(array('a','b','c'),"green", "yellow", "red");
 $result = array_diff($array1[0], $array2[0]);
 //print_r(count($result));
 
-print_r($result)
-
-
 
 ?>
+<!--
 <h1>Upload</h1>
 <form method="post" enctype="multipart/form-data">
     *.XLSX <input type="file" name="file"  />&nbsp;&nbsp;<input type="submit" value="Parse" />
 </form>
+-->
