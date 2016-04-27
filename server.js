@@ -1,3 +1,5 @@
-/**
- * Created by busygin on 20.04.2016.
- */
+var user = require ('./user');
+var Vasya =  new user.User("Вася");
+var Petya =  new user.User("Петя");
+
+Vasya.hello(Petya);
