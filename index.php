@@ -33,7 +33,7 @@
         <div class="foto">
             <img src="pic/I_am.jpg" alt="Моё фото" style="float: right">
         </div>
-        I am beginner web programmer. I study HTML, CSS, JavaScript (jQuery), PHP, MySQL more than 1 year. Currently i develop internet-store based on Joomla. I  looking for nonprofit projects or projects without salary for improving my skills.
+        I am beginner web programmer. Live in Tomsk.  I study HTML, CSS, JavaScript (jQuery), PHP, MySQL more than 1 year. Currently i develop internet-store based on Joomla. I  looking for nonprofit projects or projects without salary for improving my skills.
     </div>
 
 </div>
