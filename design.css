@@ -6,6 +6,48 @@ body {
 
     overflow-x: hidden;
 }
+/*Кнопка "наверх"*/
+#back-top {
+    position: fixed;
+    bottom: 30px;
+    /*margin-left: 866px;*/
+    left: calc(100% - 150px);
+}
+#back-top a {
+    width: 108px;
+    color: white;
+    display: block;
+    background-color: #2c3e50;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    line-height: 30px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#back-top a:hover {
+    background-color: #cc9900;
+}
+/*Конец кнопки "наверх"*/
+
+/*Текст о себе*/
+.i_am {
+    color:#ffffff;
+    position:relative;
+    top:10px;
+    left: calc(100% - 1020px);
+    width:800px;
+    height: 200px;
+    font-size: 1.7em;
+    display: block;
+    background-color: rgba(51, 102, 153, 0.6);
+    padding:10px;
+    border-radius: 15px;
+}
+/*Конец текст о себе*/
 
 #top{
     position: fixed;
@@ -42,15 +84,23 @@ body {
     top: 2048px;
     background-image: url("pic/img_portfolio6.jpg");
 }
+.foto img{
+    position:relative;
+
+    width:200px;
+    height:200px;
+    border-radius: 15px;
+
+}
 
 /*Верхние кнопки*/
 .button_top{
     cursor: pointer;
     position: inherit;
     top: 0;
-    width: 120px;
+    width: 150px;
     height: 30px;
-    margin: auto;
+    margin: -3px auto;
     padding: 10px;
     text-align: center;
     font: 100 100px 'Oleo Script', Helvetica, sans-serif;
@@ -61,21 +111,28 @@ body {
 
 #top_button_about_me{
     /*left: 800px;*/
-    right: 280px;
+    left: calc(100% - 450px);
 }
 #top_button_my_works{
-    right: 140px;
+    left: calc(100% - 341px);
     /*left: 940px;*/
 }
 #top_button_my_contacts{
-    right: 0
+    left: calc(100% - 220px);
     ;/*left: 1080px;*/
 }
+#top_button_about_me a, #top_button_my_works a, #top_button_my_contacts a {
+    color: #003366;
+    /*font-weight: bold;*/
+    background-color: #cc9900;
+    padding:10px;
+    text-decoration: none;
+}
 
-#top_button_about_me:hover, #top_button_my_works:hover, #top_button_my_contacts:hover {
+#top_button_about_me:hover a, #top_button_my_works:hover a, #top_button_my_contacts:hover a {
     color: #cc9900;
     /*font-weight: bold;*/
-    background-color: #2b2b2b;
+    background-color: #003366;
 }
 
 .button-head{
@@ -107,7 +164,7 @@ body {
 .myElement {
      /* Generated with http://gradient.quasi.ink */
     background-size: cover;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAXUlEQVQImQXBuwqDMBiA0Ty6VLQK7dbSDp1dXMTEeMFg0MqfiO/0eY76TpHceMpu4zkImXYkVU0bTtTPBTLtyM2fuwk8+o1PNzCKoF5j5NZ4UrtTWOFtV6plYT48F8M8QARJWMBSAAAAAElFTkSuQmCC");
+    /*background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAXUlEQVQImQXBuwqDMBiA0Ty6VLQK7dbSDp1dXMTEeMFg0MqfiO/0eY76TpHceMpu4zkImXYkVU0bTtTPBTLtyM2fuwk8+o1PNzCKoF5j5NZ4UrtTWOFtV6plYT48F8M8QARJWMBSAAAAAElFTkSuQmCC");*/
  }
 /*Эффекты при наведении на картинку проекта. Начало. */
 /* Reset */

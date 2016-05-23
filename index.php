@@ -5,12 +5,14 @@
     <meta charset='UTF-8'>
     <link rel='stylesheet' type='text/css' href='design.css'/>
     <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery.js" ></script>
+
 </head>
 <div id = "top" class="myElement">
     <p class="contact" style="margin-left: 80px; margin-top: 5px">Busygin Alexey</p>
-    <div id="top_button_about_me" class="button_top">About me</div>
-    <div id="top_button_my_works" class="button_top">My works</div>
-    <div id="top_button_my_contacts" class="button_top">My contacts</div>
+    <div id="top_button_about_me" class="button_top"><a href="#about_me"><span></span>About me</a></div>
+    <div id="top_button_my_works" class="button_top"><a href="#my_works"><span></span>My works</a></div>
+    <div id="top_button_my_contacts" class="button_top"><a href="#my_contacts"><span></span>My contacts</a></div>
 </div>
 
 <div id="first" class="fon">
@@ -27,6 +29,13 @@
                 </section>
             </div>
       </div>
+    <div class="i_am">
+        <div class="foto">
+            <img src="pic/I_am.jpg" alt="Моё фото" style="float: right">
+        </div>
+        I am beginner web programmer. I study HTML, CSS, JavaScript (jQuery), PHP, MySQL more than 1 year. Currently i develop internet-store based on Joomla. I  looking for nonprofit projects or projects without salary for improving my skills.
+    </div>
+
 </div>
 
 <div id="second" class="fon">
@@ -53,14 +62,59 @@
     Phone: +79539204705<br>
     </p>
   </div>
+
 </div>
 
-<script>
-
-</script>
+<p id="back-top">
+    <a href="#top"><span></span>Вверх</a>
+</p>
 
 </html>
+<script>
+    $(document).ready(function(){
 
+        // hide #back-top first
+        $("#back-top").hide();
+
+        // fade in #back-top
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#back-top').fadeIn();
+                } else {
+                    $('#back-top').fadeOut();
+                }
+            });
+
+            // scroll body to 0px on click
+            $('#back-top a').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#top_button_about_me a').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+            $('#top_button_my_works a').click(function () {
+                $('body,html').animate({
+                    scrollTop: 990
+                }, 800);
+                return false;
+            });
+            $('#top_button_my_contacts a').click(function () {
+                $('body,html').animate({
+                    scrollTop: 2048
+                }, 800);
+                return false;
+            });
+        });
+
+    });
+</script>
 
 
 <?php
