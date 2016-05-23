@@ -42,7 +42,7 @@
     <div id="wraper_project">
         <div class ="main-container" >
             <div class="tiles">
-                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Учебный курс</span><span class="info">Повышение осведомлённости сотрудников компании в области информационной безопасности</span></div></a>
+                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Учебный курс</span><span class="info" style="font-size: 1em">Повышение осведомлённости сотрудников компании в области информационной безопасности: интерактивный учебный материал, тестирование, обработка и сохранение результатов в БД</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
