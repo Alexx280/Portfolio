@@ -84,13 +84,12 @@ body {
     top: 2048px;
     background-image: url("pic/img_portfolio6.jpg");
 }
+/*моё фото*/
 .foto img{
     position:relative;
-
     width:200px;
     height:200px;
     border-radius: 15px;
-
 }
 
 /*Верхние кнопки*/
@@ -153,6 +152,7 @@ body {
     font: 100 100px 'Oleo Script', Helvetica, sans-serif;
     font-size: 2em;
     color: #2b2b2b;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
 }
 
 #contact{
@@ -167,7 +167,7 @@ body {
     /*background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAXUlEQVQImQXBuwqDMBiA0Ty6VLQK7dbSDp1dXMTEeMFg0MqfiO/0eY76TpHceMpu4zkImXYkVU0bTtTPBTLtyM2fuwk8+o1PNzCKoF5j5NZ4UrtTWOFtV6plYT48F8M8QARJWMBSAAAAAElFTkSuQmCC");*/
  }
 /*Эффекты при наведении на картинку проекта. Начало. */
-/* Reset */
+
 @import url(//codepen.io/chrisdothtml/pen/ojLzJK.css);
 .tiles {
     width: 1040px;
