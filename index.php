@@ -30,8 +30,8 @@
             </div>
       </div>
     <div class="i_am">
-        <div class="foto">
-            <img src="pic/I_am.jpg" alt="Моё фото" style="float: right">
+        <div class="foto" style="float: left">
+            <img src="pic/I_am.jpg" alt="Моё фото" >
         </div>
         I am beginner web programmer. Live in Tomsk.  I study HTML, CSS, JavaScript (jQuery), PHP, MySQL, Git more than 1 year. Currently i develop internet-store based on Joomla. I  looking for nonprofit projects or projects without salary for improving my skills.
     </div>
