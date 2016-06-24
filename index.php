@@ -22,7 +22,7 @@
 
                     <a href="https://github.com/Alexx280"> <button class="btn btn-green btn-fill-vert button">GitHub</button></a>
                     <a href="http://www.freecodecamp.com/alexx280"><button class="btn btn-blue btn-fill-vert button">FreeCodeCamp</button></a>
-                    <a href="http://tomsk.hh.ru/resume/3bbf0c1cff0259bdfb0039ed1f373562374b56"><button class="btn btn-purple btn-fill-vert  button">Resume</button> </a>
+                    <a href="https://tomsk.hh.ru/resume/87994914ff0324de9e0039ed1f694578624d74"><button class="btn btn-purple btn-fill-vert  button">Resume</button> </a>
                     <a href="http://www.intuit.ru/verifydiplomas/100752444"><button class="btn btn-navy btn-fill-vert button">Intuit</button></a>
                     <button class="btn btn-orange btn-fill-vert button">Carrot</button>
                     <button class="btn btn-red btn-fill-vert button">Alizarin</button>
@@ -33,7 +33,9 @@
         <div class="foto" style="float: left">
             <img src="pic/I_am.jpg" alt="Моё фото" >
         </div>
-        I am beginner web programmer. Live in Tomsk.  I study HTML, CSS, JavaScript (jQuery), PHP, MySQL, Git more than 1 year. Currently i develop internet-store based on Joomla. I  looking for nonprofit projects or projects without salary for improving my skills.
+        I am beginner web programmer, live in Tomsk.  I study HTML5, CSS3 (less), JavaScript (jQuery), PHP, MySQL, Git scince 2015 year.
+        I looking for vacancy of junior web developer, nonprofit projects or projects without salary for improving my skills.
+        Currently, I make web sites for customers. Below you can see my works. If you need web site contact with me.
     </div>
 
 </div>
@@ -43,7 +45,7 @@
         <div class ="main-container" >
             <div class="tiles">
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Учебный курс</span><span class="info" style="font-size: 1em">Повышение осведомлённости сотрудников компании в области информационной безопасности: интерактивный учебный материал, тестирование, обработка и сохранение результатов в БД</span></div></a>
-                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
+                <a href="http://jsdevelope.myjino.ru" class="tile"><img id="project1"  src="pic/Project2.jpg" width="425" height="300"><div class="details"><span class="title">Коммерческий сайт - визитка</span><span class="info">Сайт доставки сыпучих грузов</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
