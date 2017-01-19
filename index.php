@@ -34,8 +34,8 @@
             <img src="pic/I_am2.jpg" alt="Моё фото" >
         </div>
         I am beginner web programmer scince 2015 year, live in Tomsk. I know HTML5 (Jade), CSS3 (less, sass),
-        JavaScript (jQuery), PHP, MySQL, Git. I looking for vacancy of junior web developer, nonprofit projects
-        or projects without salary for improving my skills. Currently, I make web sites for customers.
+        JavaScript (jQuery), PHP, MySQL, Git, Gulp, BEM. I looking for vacancy of junior web developer, and not a full day.
+        Currently, I make web sites for customers.
         Below you can see my works. If you need web site contact with me.
     </div>
 
@@ -45,9 +45,11 @@
     <div id="wraper_project">
         <div class ="main-container" >
             <div class="tiles">
-                <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Учебный курс</span><span class="info" style="font-size: 1em">Повышение осведомлённости сотрудников компании в области информационной безопасности: интерактивный учебный материал, тестирование, обработка и сохранение результатов в БД</span></div></a>
+                <!--<a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Учебный курс</span><span class="info" style="font-size: 1em">Повышение осведомлённости сотрудников компании в области информационной безопасности: интерактивный учебный материал, тестирование, обработка и сохранение результатов в БД</span></div></a>-->
+                <a href="http://jsdevelope.myjino.ru/Sbexam" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Учебный курс с тестированием</span><span class="info" style="font-size: 1em">Повышение осведомлённости сотрудников компании в области информационной безопасности: интерактивный учебный материал, тестирование, обработка и сохранение результатов в БД</span></div></a>
                 <a href="http://jsdevelope.myjino.ru/Kurgan" class="tile"><img id="project1"  src="pic/Project2.jpg" width="425" height="300"><div class="details"><span class="title">Коммерческий сайт - визитка, одна страница</span><span class="info" style="font-size: 1em">Доставка сыпучих грузов</span></div></a>
-                <a href="http://jsdevelope.myjino.ru/Lady" class="tile"><img id="project1"  src="pic/Project3.jpg" width="425" height="300"><div class="details"><span class="title">Коммерческий сайт - несколько сстраниц, включая книгу отзывов</span><span class="info" style="font-size: 1em">Салон красоты (в работе)</span></div></a>
+                <a href="http://jsdevelope.myjino.ru/Lady" class="tile"><img id="project1"  src="pic/Project3.jpg" width="425" height="300"><div class="details"><span class="title">Коммерческий сайт - несколько страниц</span><span class="info" style="font-size: 1em">Салон красоты (в работе)</span></div></a>
+                <a href="http://jsdevelope.myjino.ru/Ruzov" class="tile"><img id="project1"  src="pic/Project4.jpg" width="425" height="300"><div class="details"><span class="title">Информационный  сайт</span><span class="info" style="font-size: 1em">(в работе)</span></div></a>
                 <!--<a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
                 <a href="#" class="tile"><img id="project1"  src="pic/Project1.jpg" width="425" height="300"><div class="details"><span class="title">Lorem Ipsum Dolor</span><span class="info">Quisque vel felis lectus donec vitae dapibus magna</span></div></a>
