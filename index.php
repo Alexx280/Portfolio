@@ -34,7 +34,7 @@
             <img src="pic/I_am2.jpg" alt="Моё фото" >
         </div>
         My name is Alexey. I graduated from TUSUR, specialty "information security". Since 2015 I'm studying web programming.
-        I know HTML5 (Jade), CSS3 (less, sass), JavaScript (jQuery), PHP, MySQL, Git, Gulp, BEM.
+        I know HTML5 (Jade), CSS3 (less, sass), Bootstrap, JavaScript (jQuery), PHP, MySQL, Git, Gulp, BEM, Photoshop.
         In my projects I use a web application to manage projects and time tracking. I can correspond and read technical literature in English.
         I looking for vacancy of junior web developer, and not a full day.
         Currently, I make web sites for customers.
